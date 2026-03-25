@@ -1,11 +1,11 @@
 # 📚 Sistema de Biblioteca Digital - Testes de Integração
 
-[cite_start]Este repositório contém a implementação prática de testes de integração para validar o fluxo central de uma biblioteca digital[cite: 245]. [cite_start]O foco é garantir a comunicação correta e os contratos entre os módulos durante o seguinte processo: **Buscar livro → Verificar estoque → Empréstimo**[cite: 260].
+Este repositório contém a implementação prática de testes de integração para validar o fluxo central de uma biblioteca digital. O foco é garantir a comunicação correta e os contratos entre os módulos durante o seguinte processo: **Buscar livro → Verificar estoque → Empréstimo**.
 
 ## 🚀 Tecnologias e Conceitos Aplicados
 * **Ecossistema:** Node.js / JavaScript
-* [cite_start]**Estratégia de Integração:** Top-Down [cite: 264]
-* [cite_start]**Simulação de Dependências:** Uso de **Stubs** para isolar a regra de negócio e simular o comportamento do Banco de Dados[cite: 265].
+*Estratégia de Integração:** Top-Down.
+*Simulação de Dependências:** Uso de **Stubs** para isolar a regra de negócio e simular o comportamento do Banco de Dados.
 
 ## 📋 Cenários de Teste Automatizados
 Os scripts cobrem não apenas o caminho feliz, mas também o tratamento de exceções para evitar falhas silenciosas no sistema:
